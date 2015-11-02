@@ -8,9 +8,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Student Welfare Group</title>
+    <style type="text/css">
+    .col-md-3{
+        margin-bottom: 5px;
+    }
+    </style>
+    <link href='css/simplelightbox.min.css' rel='stylesheet' type='text/css'>
+    <link href='css/demo.css' rel='stylesheet' type='text/css'>
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <!-- Retina.js - Load first for faster HQ mobile images. -->
+    <!-- Retina.js - Load first for faster HQ mobile. -->
     <script src="assets/js/plugins/retina/retina.min.js"></script>
     <!-- Font Awesome -->
     <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -49,7 +56,67 @@
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+    <![endif]--><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+$(document).ready(function(){
+    $("#missx").click(function(){
+        $(".q").css({"display": "block"});
+    });
+    $("#visx").click(function(){
+        $(".q").css({"display": "block"});
+    });
+    $("#hisx").click(function(){
+        $(".q").css({"display": "block"});
+    });
+    $("#heads").click(function(){
+        $(".p").css({"display": "block"});
+    });
+    $("#advisors").click(function(){
+        $(".p").css({"display": "block"});
+    });
+    $("#governors").click(function(){
+        $(".p").css({"display": "block"});
+    });
+    $("#members").click(function(){
+        $(".p").css({"display": "block"});
+    });
+
+    $("#x3").click(function(){
+        $(".help").css({"display": "block"});
+    });
+    $("#x2").click(function(){
+        $(".help").css({"display": "block"});
+    });
+    $("#x4").click(function(){
+        $(".help").css({"display": "block"});
+    });
+    $("#x5").click(function(){
+        $(".help").css({"display": "block"});
+    });
+    $("#x6").click(function(){
+        $(".help").css({"display": "block"});
+    });
+    $("#x7").click(function(){
+        $(".help").css({"display": "block"});
+    });
+    $("#x8").click(function(){
+        $(".help").css({"display": "block"});
+    });
+    $("#x9").click(function(){
+        $(".help").css({"display": "block"});
+    });
+    $("#x10").click(function(){
+        $(".help").css({"display": "block"});
+    });
+    $("#x12").click(function(){
+        $(".help").css({"display": "block"});
+    });
+    $("#x11").click(function(){
+        $(".help").css({"display": "block"});
+    });
+
+});
+</script>
 </head>
 <!-- Alternate Body Classes: .modern and .vintage -->
 
@@ -79,18 +146,23 @@
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#process">Process</a>
-                    </li>
+                    
                     <li>
                         <a class="page-scroll" href="#work">Work</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#gallery">Gallery</a>
+                    </li>           
+                    <li>
+                        <a class="page-scroll" href="#team">Our Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#selfhelp">Self Help</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -102,44 +174,51 @@
             <img src="assets/img/creative/swg_logo_wh.png" class="img-responsive img-centered" alt="">
             <div><h2>Student Welfare Group</h2></div>
             <hr class="colored">
-            
+            <h3>IIT Kharagpur</h3>
         </div>
         <div class="scroll-down">
             <a class="btn page-scroll" href="#about"><i class="fa fa-angle-down fa-fw"></i></a>
         </div>
     </header>
-    <section id="about">
+    <section  id="about">
         <div class="container wow fadeIn">
+            
+            <div class="row content-row text-center">
+                
+                    <div class="portfolio-filter">
+                        <ul id="filters" class="clearfix">
+                            <li>
+                                <span class="filter1 active" id="aboutx" data-filter="aboutwala">About US</span>
+                            </li>
+                            <li>
+                                <span class="filter1" id="hisx"  data-filter="histwala">Our History</span>
+                            </li>
+                            <li>
+                                <span class="filter1" id="missx" data-filter="misswala">Our Mission</span>
+                            </li>
+                            <li>
+                                <span class="filter1" id="visx" data-filter="viswala">Our Vision</span>
+                            </li>
+                        </ul>
+                    </div>
+                
+            </div>
             <div class="row">
                 
-                <div class="row text-center">
-                    <div id="contentbody">
-           <div class="liquid-slider" id="slider-id">
-                <div>
-                    <nav class="aboutin">
-                        <ul>
-                            
-                            <li><a>About Us</a></li>
-                            <li><a>Our History</a></li>
-                            <li><a>Our Mission</a></li>
-                            <li><a>Our Vision</a></li>
-
-
-                        </ul>
-                    </nav>
-                    <h2 class="title">About Us</h2>
-                     <p>The Student Welfare Group is a student body under the office of the Dean of Students&rsquo; Affairs, IIT Kharagpur .</p> 
+                    <div class="portfoliolist1">
+                        <div class="portfolio1 aboutwala" id="textswg" style="width:100%;" data-cat="aboutwala">
+                            <p>The Student Welfare Group is a student body under the office of the Dean of Students Affairs, IIT Kharagpur .</p> 
                      <p>We strive to be with those who need help and promise to sweat for the realization and solutions of issues faced by 
                     our fellow mates. It is an organization of the students, for the students, by the students. 
                     We function as two teams-
                     <ul><li> The Central Team</li>
                         <li>The Hall Coordinators Team</li>
-                      </ul>
-                    </p>
-                </div>
-                <div>
-                    <h2 class="title">Our History</h2>
-                  <p>The Counselling Centre was set up in 2009 by the Dean Of Students&prime; Affairs,
+                        </div>
+
+                            <div class="q" style="display:none">
+
+                        <div class="portfolio1 histwala" style="width:100%;" data-cat="histwala">
+                            <p>The Counselling Centre was set up in 2009 by the Dean Of Students&prime; Affairs,
                    IIT Kharagpur as an outcome of his efforts to make the campus a better campus for
                     the entire student community.</p> 
                     <p> It provided the students a place where they could
@@ -152,11 +231,13 @@
                       Today, we are a dedicated lot willing to sort out various issues of concern for the students.
                        In time to come, we will definitely emerge to be a more successful organization with more activities managed and implemented 
                        for the welfare of students.
-                        </p>              
-                </div>
-                <div>
-                      <h2 class="title">Our Mission</h2>
-                     <p>We help students in all walks of their life, be it academic or personal issues.</p><p> 
+                        </p>        
+                        </div>
+
+
+
+                        <div class="portfolio1 misswala" id="textswg" style="width:100%;" data-cat="misswala">
+                            <p>We help students in all walks of their life, be it academic or personal issues.</p><p> 
                       We aim to create and sustain an environment that promotes personal growth and discovery, 
                       the pursuit of healthy minds and bodies, and participation in the creation of a caring community.</p>
                       <p> We at SWG, infact come forward to find the issues of concern for the student community and thereon, 
@@ -165,323 +246,348 @@
                         <p>Thus, the activities of SWG are more event oriented. We are perpetually involved in planning and efficient 
                         implementation of programs in pursuit of our mission. SWG aids in the blossoming of the overall personality of each and every student, 
                         thus assisting the institute in its goal of producing confident and competent citizens of the nation.</p>
-                </div>
-                <div>
-                      <h2 class="title">Our Vision</h2>
-                        <p style="text-align:center;">"Stress free and a holistic, student-friendly KGP experience."</p>
+                        </div>
+
+
+
+                        <div class="portfolio1 viswala" id="textswg" style="width:100%;" data-cat="viswala">
+                            <p style="text-align:center;">"Stress free and a holistic, student-friendly KGP experience."</p>
                         <p>SWG strives to contribute for the overall educational mission of the Institute by facilitating 
                         the academic, emotional, social, and vocational development of the entire campus community.</p> 
                         <p>The sole aim of SWG is to ensure that every student's life in KGP is hassle free so that they 
                         can achieve their potential zenith while their stay in Kgp as well as in their professional career. 
                         SWG aims to instill a belief in every student that they can achieve all their goals in life. 
                         Respect for diversity and a commitment to students&prime; personal growth are guiding principles in the work we do.</p>
-                </div>     
-            </div>
-        </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="services" class="bg-gray">
-        <div class="container-fluid">
-            <div class="row text-center">
-                <div class="col-lg-12 wow fadeIn">
-                    <h1>This is what I do</h1>
-                    <p>I provide web design, web development, photography, and graphic design services.</p>
-                    <hr class="colored">
-                </div>
-            </div>
-            <div class="row text-center content-row">
-                <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".2s">
-                    <div class="about-content">
-                        <i class="fa fa-laptop fa-4x"></i>
-                        <h3>Foresight</h3>
-                        <p>This theme includes the retina.js plugin for easy retina image support so your images and graphics will look great on mobile devices!</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".4s">
-                    <div class="about-content">
-                        <i class="fa fa-code fa-4x"></i>
-                        <h3>Make It Count</h3>
-                        <p>Vitality is built using Bootstrap 3, and is easy to edit and customize. LESS files are included as well for deeper customization.</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".6s">
-                    <div class="about-content">
-                        <i class="fa fa-camera-retro fa-4x"></i>
-                        <h3>GD PI</h3>
-                        <p>When building this theme, we've paid close attention to how it looks on various screen sizes. Try it out on a phone or tablet!</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".8s">
-                    <div class="about-content">
-                        <i class="fa fa-paint-brush fa-4x"></i>
-                        <h3>PSF</h3>
-                        <p>All of our themes are crafted with care, and we strive to make your experience as one of our customers the best as possible.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <aside class="cta-quote" style="background-image: url('assets/img/creative/bg-aside.jpg');">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1 wow fadeIn">
-                    <span class="quote">Good
-                        <span class="text-primary">design</span> is finding that perfect balance between the way something
-                    <span class="text-primary">looks</span> and how it
-                    <span class="text-primary">functions</span>.</span>
-                    <hr class=" colored">
-                    <a class="btn btn-outline-light page-scroll" href="#contact">Let's Find It</a>
-                </div>
-            </div>
-        </div>
-    </aside>
-    <section id="process" class="services">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-12 wow fadeIn">
-                    <h2>My Process</h2>
-                    <hr class="colored">
-                    <p>Here is an overview of how I approach each new project.</p>
-                </div>
-            </div>
-            <div class="row content-row">
-                <div class="col-md-4 wow fadeIn" data-wow-delay=".2s">
-                    <div class="media">
-                        <div class="pull-left">
-                            <i class="fa fa-clipboard"></i>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Plan</h3>
-                            <ul>
-                                <li>Client interview</li>
-                                <li>Gather consumer data</li>
-                                <li>Create content strategy</li>
-                                <li>Analyze research</li>
-                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 wow fadeIn" data-wow-delay=".4s">
-                    <div class="media">
-                        <div class="pull-left">
-                            <i class="fa fa-pencil"></i>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Create</h3>
-                            <ul>
-                                <li>Build wireframe</li>
-                                <li>Gather client feedback</li>
-                                <li>Code development</li>
-                                <li>Marketing review</li>
-                            </ul>
-                        </div>
+                    
+
+
+
+
                     </div>
-                </div>
-                <div class="col-md-4 wow fadeIn" data-wow-delay=".6s">
-                    <div class="media">
-                        <div class="pull-left">
-                            <i class="fa fa-rocket"></i>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Launch</h3>
-                            <ul>
-                                <li>Deploy website</li>
-                                <li>Market product launch</li>
-                                <li>Collect UX data</li>
-                                <li>Quarterly maintenence</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>
     <section id="work" class="bg-gray">
         <div class="container text-center wow fadeIn">
-            <h2>Case Studies</h2>
+            <h2>Our Events</h2>
             <hr class="colored">
-            <p>Here are some in depth case studies of larger projects that I've worked on in the past.</p>
+            <p>Here are some of our Major Events.</p>
         </div>
     </section>
     <section class="portfolio-carousel wow fadeIn">
+        <div class="item" style="background-image: url('assets/img/creative/portfolio/newsletter.jpg')">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4 col-md-push-8">
+                        <div class="project-details">
+                            <span class="project-name" style="color:black;">Newsletter</span>
+                            <hr class="colored">
+                            <a href="#portfolioModal1" data-toggle="modal" class="btn btn-outline-dark">View Details <i class="fa fa-long-arrow-right fa-fw"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-md-pull-3 hidden-xs">
+                        <img src="assets/img/portfolio/newsletter2.jpg" class="img-responsive portfolio-image" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="item" style="background-image: url('assets/img/creative/portfolio/bg-1.jpg')">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-4 col-md-push-8">
                         <div class="project-details">
-                            <img src="assets/img/client-logos/logo-1.png" class="img-responsive client-logo" alt="">
-                            <span class="project-name">Project Name</span>
-                            <span class="project-description">Branding, Website Design</span>
-                            <hr class="colored">
-                            <a href="#portfolioModal1" data-toggle="modal" class="btn btn-outline-light">View Details <i class="fa fa-long-arrow-right fa-fw"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-md-8 col-md-pull-4 hidden-xs">
-                        <img src="assets/img/portfolio/mobile-screens.png" class="img-responsive portfolio-image" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="item" style="background-image: url('assets/img/creative/portfolio/bg-2.jpg')">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-4 col-md-push-8">
-                        <div class="project-details">
-                            <img src="assets/img/client-logos/logo-2.png" class="img-responsive client-logo" alt="">
-                            <span class="project-name">Project Name</span>
-                            <span class="project-description">Branding, Website Design</span>
-                            <hr class="colored">
-                            <a href="#portfolioModal2" data-toggle="modal" class="btn btn-outline-light">View Details <i class="fa fa-long-arrow-right fa-fw"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-md-8 col-md-pull-4 hidden-xs">
-                        <img src="assets/img/portfolio/tablet-screens.png" class="img-responsive portfolio-image" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="item" style="background-image: url('assets/img/creative/portfolio/bg-3.jpg')">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-4 col-md-push-8">
-                        <div class="project-details">
-                            <img src="assets/img/client-logos/logo-1.png" class="img-responsive client-logo" alt="">
-                            <span class="project-name">Project Name</span>
-                            <span class="project-description">Branding, Website Design</span>
-                            <hr class="colored">
-                            <a href="#portfolioModal3" data-toggle="modal" class="btn btn-outline-light">View Details <i class="fa fa-long-arrow-right fa-fw"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-md-8 col-md-pull-4 hidden-xs">
-                        <img src="assets/img/portfolio/mobile-screens.png" class="img-responsive portfolio-image" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="item" style="background-image: url('assets/img/creative/portfolio/bg-4.jpg')">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-4 col-md-push-8">
-                        <div class="project-details">
-                            <img src="assets/img/client-logos/logo-2.png" class="img-responsive client-logo" alt="">
-                            <span class="project-name">Project Name</span>
-                            <span class="project-description">Branding, Website Design</span>
+                            <span class="project-name" style="color:white;">Student Mentor Programme</span>
                             <hr class="colored">
                             <a href="#portfolioModal4" data-toggle="modal" class="btn btn-outline-light">View Details <i class="fa fa-long-arrow-right fa-fw"></i></a>
                         </div>
                     </div>
                     <div class="col-md-8 col-md-pull-4 hidden-xs">
-                        <img src="assets/img/portfolio/tablet-screens.png" class="img-responsive portfolio-image" alt="">
+                        <img src="assets/img/portfolio/mobile-screens.png" class="img-responsive portfolio-image" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item" style="background-image: url('assets/img/creative/portfolio/paramount_achievers.jpg')">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4 col-md-push-8">
+                        <div class="project-details">
+                            <span class="project-name" style="color:black;">Paramount Achievers</span>
+                            <hr class="colored">
+                            <a href="#portfolioModal3" data-toggle="modal" class="btn btn-default"><span style="color:black">View Details</span> <i class="fa fa-long-arrow-right fa-fw"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="item" style="background-image: url('assets/img/creative/portfolio/bg-3.jpg')">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4 col-md-push-8">
+                        <div class="project-details">
+                            <span class="project-name" style="color:black;">Doubt Sessions</span>
+                            <hr class="colored">
+                            <a href="#portfolioModal2" data-toggle="modal" class="btn btn-outline-dark">View Details <i class="fa fa-long-arrow-right fa-fw"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-md-pull-4 hidden-xs">
+                        <img src="assets/img/portfolio/mobile-screens.png" class="img-responsive portfolio-image" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section>
-        <div class="container text-center wow fadeIn">
-            <h2>Portfolio</h2>
+    <section id="gallery">
+    <div class="container text-center wow fadeIn">
+            <h2>Gallery</h2>
             <hr class="colored">
-            <p>Here are some other projects that I've worked on.</p>
+            <p>Here are some Cool Memories of our Work.</p>
+        </div>
+
+
+        <div class="gallery container">  
+        
+            <a href="images/1.jpg"><img src="images/1.jpg" class="col-md-3" alt="" title="" /></a>
+            <a href="images/2.jpg"><img src="images/2.jpg" class="col-md-3" alt="" title=""/></a>
+            <a href="images/3.jpg"><img src="images/3.jpg" class="col-md-3" alt="" title=""/></a>
+            <a href="images/4.jpg"><img src="images/4.jpg" class="col-md-3" alt="" title=""/></a>
+           
+            
+            <a href="images/5.jpg"><img src="images/5.jpg" class="col-md-3" alt="" title=""/></a>
+            <a href="images/6.jpg"><img src="images/6.jpg" class="col-md-3" alt="" title=""/></a>
+            <a href="images/7.jpg" class="big"><img src="images/7.jpg" class="col-md-3" alt="" title=""/></a>
+            <a href="images/8.jpg"><img src="images/8.jpg" class="col-md-3" alt="" title=""/></a>
+            
+            
+            <a href="images/9.jpg" class="big"><img class="col-md-3" src="images/9.jpg" alt="" title=""/></a>
+            <a href="images/10.jpg"><img src="images/10.jpg" class="col-md-3" alt="" title=""/></a>
+            <a href="images/11.jpg"><img src="images/11.jpg" class="col-md-3" alt="" title=""/></a>
+            <a href="images/12.jpg"><img src="images/12.jpg" class="col-md-3" alt="" title=""/></a>
+            <a href="images/13.jpg"><img src="images/13.jpg" class="col-md-3" alt="" title="" /></a>
+            <a href="images/14.jpg"><img src="images/14.jpg" class="col-md-3" alt="" title=""/></a>
+            <a href="images/15.jpg"><img src="images/15.jpg" class="col-md-3" alt="" title=""/></a>
+            <a href="images/16.jpg"><img src="images/16.jpg" class="col-md-3" alt="" title=""/></a>
+            
+            
+            <a href="images/17.jpg"><img src="images/17.jpg" class="col-md-3" alt="" title=""/></a>
+            <a href="images/18.jpg"><img src="images/18.jpg" class="col-md-3" alt="" title=""/></a>
+            <a href="images/19.jpg" class="big"><img class="col-md-3" src="images/19.jpg" alt="" title=""/></a>
+            <a href="images/20.jpg"><img src="images/20.jpg" class="col-md-3" alt="" title=""/></a>
+            
+            
+            <a href="images/21.jpg" class="big"><img class="col-md-3" src="images/21.jpg" alt="" title=""/></a>
+            <a href="images/22.jpg"><img src="images/22.jpg" class="col-md-3" alt="" title=""/></a>
+            <a href="images/23.jpg"><img src="images/23.jpg" class="col-md-3" alt="" title=""/></a>
+            <a href="images/24.jpg"><img src="images/24.jpg" class="col-md-3" alt="" title=""/></a>
+           
+            
+        </div>
+    </section>
+    <section id="team">
+        <div class="container text-center wow fadeIn">
+            <h2>Team</h2>
+            <hr class="colored">
+            <p>Here is our SWG Team</p>
             <div class="row content-row">
                 <div class="col-lg-12">
                     <div class="portfolio-filter">
                         <ul id="filters" class="clearfix">
                             <li>
-                                <span class="filter" data-filter="identity graphic logo web">All</span>
+                                <span class="filter active" data-filter="identity" id="governors">Governors</span>
                             </li>
                             <li>
-                                <span class="filter active" data-filter="identity">Identity</span>
+                                <span class="filter" data-filter="advisor" id="advisors">Advisors</span>
                             </li>
                             <li>
-                                <span class="filter" data-filter="graphic">Graphic</span>
+                                <span class="filter" data-filter="graphic" id="heads">Heads</span>
                             </li>
                             <li>
-                                <span class="filter" data-filter="web">Web</span>
+                                <span class="filter" data-filter="web" id="members">Members</span>
                             </li>
+                            
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <div id="portfoliolist">
-                        <div class="portfolio identity" data-cat="identity" href="#portfolioModal1" data-toggle="modal">
-                            <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/grid/identity/1.jpg" alt="">
+                    <div class="portfoliolist">
+                        <div class="portfolio identity " data-cat="identity" >
+                            <div class="portfolio-wrapper" >
+                                <img src="assets/img/portfolio/grid/identity/Akash.jpg"  alt="" >
                                 <div class="caption">
                                     <div class="caption-text">
-                                        <a class="text-title">Generic Inc.</a>
-                                        <span class="text-category">Brand Identity</span>
+                                        <a class="text-title">Akash Verma</a>
+                                        <span class="text-category">8016761358<br/>akashverman@swgiitkgp.in</span>
                                     </div>
                                     <div class="caption-bg"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="portfolio web" data-cat="web" href="#portfolioModal2" data-toggle="modal">
+                        <div class="portfolio identity" data-cat="identity" >
                             <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/grid/web/1.jpg" alt="">
+                                <img src="assets/img/portfolio/grid/identity/Sourav.jpg" alt="">
                                 <div class="caption">
                                     <div class="caption-text">
-                                        <a class="text-title">Brands</a>
-                                        <span class="text-category">Web Development</span>
+                                        <a class="text-title">Sourav Basu</a>
+                                        <span class="text-category">9564365113<br/>souravbasu@swgiitkgp.in</span>
                                     </div>
                                     <div class="caption-bg"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="portfolio graphic" data-cat="graphic" href="#portfolioModal3" data-toggle="modal">
+                        <div class="portfolio identity" data-cat="identity" >
                             <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/grid/graphic/1.jpg" alt="">
+                                <img src="assets/img/portfolio/grid/identity/Amit.jpg" alt="" >
                                 <div class="caption">
                                     <div class="caption-text">
-                                        <a class="text-title">Excellence</a>
-                                        <span class="text-category">Poster Design</span>
+                                        <a class="text-title">Amit Anand</a>
+                                        <span class="text-category">9126147522<br/>amitanand@swgiitkgp.in</span>
                                     </div>
                                     <div class="caption-bg"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="portfolio web" data-cat="web" href="#portfolioModal4" data-toggle="modal">
+                        <div class="portfolio identity" data-cat="identity" >
                             <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/grid/web/2.jpg" alt="">
+                                <img src="assets/img/portfolio/grid/identity/Nikhil.jpg" alt="">
                                 <div class="caption">
                                     <div class="caption-text">
-                                        <a class="text-title">YouTV</a>
-                                        <span class="text-category">Web Development</span>
+                                        <a class="text-title">Nikhil Kedia</a>
+                                        <span class="text-category">8436241925<br/>nikhilkedia@swgiitkgp.in</span>
                                     </div>
                                     <div class="caption-bg"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="portfolio graphic" data-cat="graphic" href="#portfolioModal1" data-toggle="modal">
+
+                <div style="display:none;" class="p">
+
+                         <div class="portfolio advisor" data-cat="advisor" >
                             <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/grid/graphic/2.jpg" alt="">
+                                <img src="assets/img/portfolio/grid/advisor/Sheenal.jpg" alt="">
                                 <div class="caption">
                                     <div class="caption-text">
-                                        <a class="text-title">Office Supplies</a>
-                                        <span class="text-category">Graphic Design</span>
+                                        <a class="text-title"> Sheenal Chhabra </a>
+                                        <span class="text-category"> 9002311735<br/>chhabrasheenal@gmail.com </span>
                                     </div>
                                     <div class="caption-bg"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="portfolio web" data-cat="web" href="#portfolioModal2" data-toggle="modal">
+
+                        <div class="portfolio advisor" data-cat="advisor" >
                             <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/grid/web/3.jpg" alt="">
+                                <img src="assets/img/portfolio/grid/advisor/Shankar.jpg" alt="">
                                 <div class="caption">
                                     <div class="caption-text">
-                                        <a class="text-title">Fooder</a>
-                                        <span class="text-category">Mobile App</span>
+                                        <a class="text-title">Shankar Basava</a>
+                                        <span class="text-category"> 9046879645<br/>inboxme.shankar@gmail.com </span>
                                     </div>
                                     <div class="caption-bg"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="portfolio graphic" data-cat="graphic" href="#portfolioModal3" data-toggle="modal">
+
+                        <div class="portfolio advisor" data-cat="advisor" >
                             <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/grid/graphic/3.jpg" alt="">
+                                <img src="assets/img/portfolio/grid/advisor/Uma.jpg" alt="">
+                                <div class="caption">
+                                    <div class="caption-text">
+                                        <a class="text-title">Uma Ravali </a>
+                                        <span class="text-category"> 9800297033<br/>ravali.theeda@gmail.com </span>
+                                    </div>
+                                    <div class="caption-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio advisor" data-cat="advisor" >
+                            <div class="portfolio-wrapper">
+                                <img src="assets/img/portfolio/grid/advisor/Ankit.jpg" alt="">
+                                <div class="caption">
+                                    <div class="caption-text">
+                                        <a class="text-title"> Ankit Bansal </a>
+                                        <span class="text-category"> 8389934342<br/>ankiteciitkgp@gmail.com </span>
+                                    </div>
+                                    <div class="caption-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio advisor" data-cat="advisor" >
+                            <div class="portfolio-wrapper">
+                                <img src="assets/img/portfolio/grid/advisor/Shyam.jpg" alt="">
+                                <div class="caption">
+                                    <div class="caption-text">
+                                        <a class="text-title"> Shyam Simaria </a>
+                                        <span class="text-category"> 9748596919<br/>shyams7800@gmail.com </span>
+                                    </div>
+                                    <div class="caption-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio advisor" data-cat="advisor" >
+                            <div class="portfolio-wrapper">
+                                <img src="assets/img/portfolio/grid/advisor/Abhishek.jpg" alt="">
+                                <div class="caption">
+                                    <div class="caption-text">
+                                        <a class="text-title"> Abhishek Chakraborty </a>
+                                        <span class="text-category">  9434030950<br/>abhichakra02@gmail.com </span>
+                                    </div>
+                                    <div class="caption-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio advisor" data-cat="advisor" >
+                            <div class="portfolio-wrapper">
+                                <img src="assets/img/portfolio/grid/advisor/Nishan.jpg" alt="">
+                                <div class="caption">
+                                    <div class="caption-text">
+                                        <a class="text-title"> Nishan Agarwal </a>
+                                        <span class="text-category"> 9547874581<br/>agarwalnishan5@gmail.com </span>
+                                    </div>
+                                    <div class="caption-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="portfolio graphic" data-cat="graphic" >
+                            <div class="portfolio-wrapper">
+                                <img src="assets/img/portfolio/grid/graphic/tushar.jpg" alt="">
+                                <div class="caption">
+                                    <div class="caption-text">
+                                        <a class="text-title">Tushar Gupta</a>
+                                        <span class="text-category">9547010744 <br/> tushar@swgiitkgp.in</span>
+                                    </div>
+                                    <div class="caption-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio graphic" data-cat="graphic" >
+                            <div class="portfolio-wrapper">
+                                <img src="assets/img/portfolio/grid/graphic/amey.jpg" alt="">
+                                <div class="caption">
+                                    <div class="caption-text">
+                                        <a class="text-title">Amey Muley</a>
+                                        <span class="text-category">7586845964 <br/> amey3108@gmail.com</span>
+                                    </div>
+                                    <div class="caption-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio graphic" data-cat="graphic" >
+                            <div class="portfolio-wrapper">
+                                <img src="assets/img/portfolio/grid/graphic/ashutosh.jpg" alt="">
                                 <div class="caption">
                                     <div class="caption-text">
                                         <a class="text-title">Mountain Tea</a>
@@ -491,244 +597,635 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="portfolio graphic" data-cat="graphic" href="#portfolioModal4" data-toggle="modal">
+                        <div class="portfolio graphic" data-cat="graphic" >
                             <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/grid/graphic/4.jpg" alt="">
+                                <img src="assets/img/portfolio/grid/graphic/manoj.jpg" alt="">
                                 <div class="caption">
                                     <div class="caption-text">
-                                        <a class="text-title">Checkmark</a>
-                                        <span class="text-category">Graphic Design</span>
+                                        <a class="text-title">Ashutosh Yadav</a>
+                                        <span class="text-category">8013572079<br/>ashutosh@swgiitkgp.in</span>
                                     </div>
                                     <div class="caption-bg"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="portfolio identity" data-cat="identity" href="#portfolioModal1" data-toggle="modal">
+                        <div class="portfolio graphic" data-cat="graphic" >
                             <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/grid/identity/2.jpg" alt="">
+                                <img src="assets/img/portfolio/grid/graphic/khandu.jpg" alt="">
                                 <div class="caption">
                                     <div class="caption-text">
-                                        <a class="text-title">Demish</a>
-                                        <span class="text-category">Brand Identity</span>
+                                        <a class="text-title">Akash khandelwal</a>
+                                        <span class="text-category">7872839351<br/>akashsteller@gmail.com</span>
                                     </div>
                                     <div class="caption-bg"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="portfolio web" data-cat="web" href="#portfolioModal2" data-toggle="modal">
+                        <div class="portfolio graphic" data-cat="graphic" >
                             <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/grid/web/4.jpg" alt="">
+                                <img src="assets/img/portfolio/grid/graphic/karan.jpg" alt="">
                                 <div class="caption">
                                     <div class="caption-text">
-                                        <a class="text-title">OneRepublic</a>
-                                        <span class="text-category">Web Development</span>
+                                        <a class="text-title">Karan Gupta</a>
+                                        <span class="text-category">8609267909<br/>karangupta21893@gmail.com</span>
                                     </div>
                                     <div class="caption-bg"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="portfolio graphic" data-cat="graphic" href="#portfolioModal3" data-toggle="modal">
+                        <div class="portfolio graphic" data-cat="graphic" >
                             <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/grid/graphic/5.jpg" alt="">
+                                <img src="assets/img/portfolio/grid/graphic/patni.jpg" alt="">
                                 <div class="caption">
                                     <div class="caption-text">
-                                        <a class="text-title">Postable</a>
-                                        <span class="text-category">Graphic Design</span>
+                                        <a class="text-title">Siddhant Jain</a>
+                                        <span class="text-category">9775677420<br/>siddhant@swgiitkgp.in</span>
                                     </div>
                                     <div class="caption-bg"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="portfolio identity" data-cat="identity" href="#portfolioModal4" data-toggle="modal">
+                        <div class="portfolio graphic" data-cat="graphic" >
                             <div class="portfolio-wrapper">
-                                <img src="assets/img/portfolio/grid/identity/3.jpg" alt="">
+                                <img src="assets/img/portfolio/grid/graphic/prithvi.jpg" alt="">
                                 <div class="caption">
                                     <div class="caption-text">
-                                        <a class="text-title">Simpli Nota</a>
-                                        <span class="text-category">Brand Identity</span>
+                                        <a class="text-title">Prithvi Krishna</a>
+                                        <span class="text-category">9800190883<br/>prithvi@swgiitkgp.in</span>
                                     </div>
                                     <div class="caption-bg"></div>
                                 </div>
                             </div>
                         </div>
+
+                         <div class="portfolio graphic" data-cat="graphic" >
+                            <div class="portfolio-wrapper">
+                                <img src="assets/img/portfolio/grid/graphic/ravina.jpg" alt="">
+                                <div class="caption">
+                                    <div class="caption-text">
+                                        <a class="text-title">Ravina Moirangthem</a>
+                                        <span class="text-category">9932077420<br/>ravina@swgiitkgp.in</span>
+                                    </div>
+                                    <div class="caption-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="portfolio graphic" data-cat="graphic" >
+                            <div class="portfolio-wrapper">
+                                <img src="assets/img/portfolio/grid/graphic/chahak.jpg" alt="">
+                                <div class="caption">
+                                    <div class="caption-text">
+                                        <a class="text-title">Chahak Tharani</a>
+                                        <span class="text-category">7872821794<br/>chahak@swgiitkgp.in</span>
+                                    </div>
+                                    <div class="caption-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="portfolio graphic" data-cat="graphic" >
+                            <div class="portfolio-wrapper">
+                                <img src="assets/img/portfolio/grid/graphic/ishan.jpg" alt="">
+                                <div class="caption">
+                                    <div class="caption-text">
+                                        <a class="text-title">Ishan Jain</a>
+                                        <span class="text-category">9800126133<br/>ishankjain95@gmail.com</span>
+                                    </div>
+                                    <div class="caption-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="portfolio graphic" data-cat="graphic" >
+                            <div class="portfolio-wrapper">
+                                <img src="assets/img/portfolio/grid/graphic/kunwar.jpg" alt="">
+                                <div class="caption">
+                                    <div class="caption-text">
+                                        <a class="text-title">Kunwarvir Singh</a>
+                                        <span class="text-category">8001342091<br/>kunwarvir@swgiitkgp.in</span>
+                                    </div>
+                                    <div class="caption-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="portfolio graphic" data-cat="graphic" >
+                            <div class="portfolio-wrapper">
+                                <img src="assets/img/portfolio/grid/graphic/sanket.jpg" alt="">
+                                <div class="caption">
+                                    <div class="caption-text">
+                                        <a class="text-title">Sanket Modi</a>
+                                        <span class="text-category">9933965713<br/>sanket@swgiitkgp.in</span>
+                                    </div>
+                                    <div class="caption-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+             </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="testimonials bg-gray">
-        <div class="container wow fadeIn">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <div class="testimonials-carousel">
-                        <div class="item">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <p class="lead">"Working with John Smith was both a valuable and rewarding experience."</p>
-                                    <hr class="colored">
-                                    <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, temporibus, laborum, dignissimos doloremque corporis alias nostrum recusandae culpa id quisquam harum impedit sed sunt non obcaecati vero ipsam aut fugit?</p>
-                                    <div class="testimonial-info">
-                                        <div class="testimonial-img">
-                                            <img src="assets/img/testimonials/1.jpg" class="img-circle img-responsive" alt="">
-                                        </div>
-                                        <div class="testimonial-author">
-                                            <span class="name">Jim Walker</span>
-                                            <p class="small">CEO of GeneriCorp</p>
-                                            <div class="stars">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <p class="lead">"John is an excellent designer, and we got our project done on time and on budget."</p>
-                                    <hr class="colored">
-                                    <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, temporibus, laborum, dignissimos doloremque corporis alias nostrum recusandae culpa id quisquam harum impedit sed sunt non obcaecati vero ipsam aut fugit?</p>
-                                    <div class="testimonial-info">
-                                        <div class="testimonial-img">
-                                            <img src="assets/img/testimonials/1.jpg" class="img-circle img-responsive" alt="">
-                                        </div>
-                                        <div class="testimonial-author">
-                                            <span class="name">Jim Walker</span>
-                                            <p class="small">CEO of GeneriCorp</p>
-                                            <div class="stars">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="cta-form bg-dark">
-        <div class="container text-center">
-            <h3>Subscribe to our newsletter!</h3>
+
+
+
+
+    <section id="selfhelp">
+        <div class="container text-center wow fadeIn">
+            <h2>Self Help</h2>
             <hr class="colored">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <!-- MailChimp Signup Form -->
-                    <div id="mc_embed_signup">
-                        <!-- Replace the form action in the line below with your MailChimp embed action! For more informatin on how to do this please visit the Docs! -->
-                        <form role="form" action="http://startbootstrap.us3.list-manage.com/subscribe/post?u=531af730d8629808bd96cf489&amp;id=afb284632f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
-                            <div class="input-group input-group-lg">
-                                <input type="email" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Email address...">
-                                <span class="input-group-btn">
-                                    <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">Subscribe!</button>
-                                </span>
-                            </div>
-                            <div id="mce-responses">
-                                <div class="response" id="mce-error-response" style="display:none"></div>
-                                <div class="response" id="mce-success-response" style="display:none"></div>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- End MailChimp Signup Form -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="contact">
-        <div class="container wow fadeIn">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
-                    <hr class="colored">
-                    <p>I'd love to hear about your next project! Send me a message and I will see if I can help.</p>
-                </div>
-            </div>
+            <p>Here are some ways in which you can help yourself.</p>
             <div class="row content-row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-                                <p class="help-block text-danger"></p>
+                <div class="col-lg-12">
+                    <div class="portfolio-filter">
+                        <ul id="filters" class="clearfix">
+                            <li>
+                                <span class="filter2 active" data-filter="Alcohol" id="x1">Alcohol</span>
+                            </li>
+                            <li>
+                                <span class="filter2" data-filter="Anger" id="x2">Anger</span>
+                            </li>
+                            <li>
+                                <span class="filter2" data-filter="Anxiety" id="x3">Anxiety</span>
+                            </li>
+                            <li>
+                                <span class="filter2" data-filter="Concentration" id="x4">Concentration</span>
+                            </li>
+                            <li>
+                                <span class="filter2" data-filter="Conflicts" id="x5">Conflicts</span>
+                            </li>
+                            <li>
+                                <span class="filter2" data-filter="Depression" id="x6">Depression</span>
+                            </li>
+                            <li>
+                                <span class="filter2" data-filter="Exam" id="x7">Exam</span>
+                            </li>
+                            <li>
+                                <span class="filter2" data-filter="Language" id="x8">Language</span>
+                            </li>
+                            <li>
+                                <span class="filter2" data-filter="Homesickness" id="x9">Homesickness</span>
+                            </li>
+                            <li>
+                                <span class="filter2" data-filter="Lonliness" id="x10">Lonliness</span>
+                            </li>
+                            <li>
+                                <span class="filter2" data-filter="Procrastination" id="x11">Procrastination</span>
+                            </li>
+                            <li>
+                                <span class="filter2" data-filter="Sleeping"  id="x12">Sleeping</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="portfoliolist2">
+                        <div class="portfolio2 Alcohol" data-cat="Alcohol" style="width:100%">
+                            <div class="" style="text-align:left">
+                                <h3 style="text-align:center">Alcohol</h3>
+                            <p>Most people associate ALCOHOL with fun, with being sociable and with celebrations. We may also use it to help us feel better when we are tense or unhappy, or to feel more confident. But the truth is <b>"70 per cent of the hospital related accidents are alcohol related".</b> </p>
+                              <p>One snag is that, although alcohol initially acts as a 'pick-you-up' and mood - enhancer, it is ultimately a depressant; so a heavy night drinking is likely to leave you feeling worse rather than better. Also, the more you drink, and the more often you drink, the more of it you need to feel the same effects. Individuals often are not aware how much they are drinking or its impact on those around them. If you recognise the presence of any of the following, it is time to do something about it:</p>
+                              <ul style="margin-left:20px;">
+                              <li>
+                                You are regularly drinking.
+                              </li>
+                              <li>
+                                Your studies may be suffering with difficulties in concentration, mood swings and having to contend with feelings of guilt.
+                              </li>
+                              <li>
+                                Relationships with others may be dwindling, and your outlook and lifestyle restricted by a need to consume alcohol.
+                              </li>
+                              </ul>
+                              <!--<p>For further information regarding PDS session timings and syllabus, visit the following link.</p>-->
+                              <h3 style="text-align:center">Gradually decrease the intake:</h3>
+                              <p>Here are some ideas that may help you to cut down your intake:</p>
+                              <ul style="margin-left:20px;">
+                              <li>
+                              Keep a diary of intake in units to clarify your pattern of use and quantities. Cutting down as soon as possible works best if you set limits for yourself, that you feel you might reasonably stick to.
+                              </li>
+                              <li>
+                              Identify those occasions, times of day, companions, or moods when you are prone to use. Try to avoid them as much as possible.
+                              </li>
+                              <li>
+                              It might also help to try to cut down your intake with the support of a group. Increase your participation in your social circle.
+                              </li>
+                              </ul>
+                              <h3 style="text-align:center">Help Others:</h3>
+                              <p>Helping others is the most noble of all the other works. It can be extremely distressing if someone you care about is drinking. Although you can encourage and support them to make changes, it is they themselves who must ultimately decide (and be prepared) to do the changing. Some suggestions to help are:</p>
+                              <ul style="margin-left:20px;">
+                              <li>
+                              Allow space for them to talk about anything that may be bothering them.
+                              </li>
+                              <li>
+                              Rather than labelling them, focus on the effects drink is having on others, as well as on themselves.
+                              </li>
+                              <li>
+                              Make clear what behaviour is unacceptable to you and avoid arguments.
+                              </li>
+                              </ul>
                             </div>
                         </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Email Address</label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
+                <div style="display:none;" class="help">
+                        <div class="portfolio2 Anger" data-cat="Anger" style="width:100%">
+                            <div class="" style="text-align:left">
+                                <h3 style="text-align:center">Anger</h3>
+                                        <p>For some people anger is not a problem, they get angry, sort it out relatively quickly and then return to equilibrium and their normal state of viewing the world. Anger becomes problematic when it is too easily triggered or too prolonged, and then it impacts on concentration, mood, relationships, self-esteem, work and social life, and can result in aggression or violence to self or others.</p>
+                                          <h3 style="text-align:center">Effects of frequent or chronic anger:</h3>
+                                          <p>Frequent or chronic anger can have serious consequences for our health. In the long-term these include:</p>
+                                          <ul style="margin-left:20px;">
+                                          <li>
+                                             hypertension (high blood pressure)
+                                          </li>
+                                          <li>
+                                             aggravated heart disease
+                                          </li>
+                                          <li>
+                                            longer time to recover from major traumas to the body such as operations or accidents
+                                          </li>
+                                          </ul>
+                                          <!--<p>For further information regarding PDS session timings and syllabus, visit the following link.</p>-->
+                                          <h3 style="text-align:center">How to get control on your anger?</h3>
+                                          <ul style="margin-left:20px">
+                                        <li> <b>Reframing:</b><br />
+                                This is the term used to describe the placing of a new frame of reference around our thoughts. "My friend is usually late, if she really liked and respected me she would not keep me hanging around" might become: "This is part of her easy-going nature that I like so much. She is like that with everyone and doesn't mean any harm by it."
+                                        </li>
+                                        <br />
+                                        <li> <b>Use the L.I.F.E. model to transform emotionally fraught situations:</b>
+                                        <ul style="margin-left:10px">
+                                        <li> <b>L</b> -Listen to the other person attentively and allow them the space to either confirm or modify your frame of reference by feeding back to them what you understand the situation to be.</li>
+                                        <li> <b>I</b> -"I" statements and tell the person just what it is that is making you angry, without blaming them and escalating the conflict. For example: "I feel angry when you make arrangements without telling me and expect me to go along or get left behind. I feel as if you have no respect for me". Rather than 'You have no respect for me, it's no wonder I get so angry".</li>
+                                        <li> <b>F</b> -Freedom. Allow people the freedom to deal with their problems as they see fit. It's no good getting cross because they can't see the wisdom of your approach; it just makes things worse.</li>
+                                        <li> <b>E</b> -Everyone's a winner! Continue to negotiate until both sides feel they have been heard and have got something out of the situation. Making someone feel a loser is only storing up future troubles.</li>
+                                Using the L.I.F.E. model will give you a framework to help you to address things that make you angry quickly without escalating the situation into a conflict. 'Stewing' in your angry feelings, or 'swallowing' them in order to pretend that it doesn't matter, can lead to the development of depression and feelings of hopelessness, or 'temper explosions' which in extreme cases can be linked to violent outbursts.</ul></li></ul>
                             </div>
                         </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                <p class="help-block text-danger"></p>
+                        <div class="portfolio2 Anxiety" data-cat="Anxiety" style="width:100%">
+                            <div class="" style="text-align:left">
+                                <h3 style="text-align:center">Anxiety</h3>
+                        <p>Anxiety is a normal emotional and physiological response to feeling threatened. People differ as to how vulnerable they feel in different situations: this can be influenced by past experiences as well as by the beliefs and attitudes they hold about these situations.<br><br>
+                Some general situations which often cause anxiety include:</p>
+                          <ul style="margin-left:20px;">
+                            <li> Leaving home and / or adapting to life at university</li>
+                            <li> Dealing with relationships or the lack of relationships</li>
+                            <li> Panic about facing exams or making a presentation</li>
+                            <li> Worrying about social acceptance and approval, or about failure, criticism or rejection from others</li>
+                          </ul>
+                          <br/>
+                          <p>The experience of anxiety can range from mild uneasiness and worry to severe panic. At a reasonable level, short bursts of anxiety can motivate us and enhance our performance, but if anxiety becomes too severe or chronic, however, it can become debilitating.</p>
+                          <h3 style="text-align:center">How you can help yourself?</h3>
+                          First of all, you need to know that anxiety is entirely normal. Everyone feels anxious when they are in a stressful situation where they feel vulnerable,             so being anxious does not mean that you are 'weak' or 'abnormal'. Here are some strategies you can try for yourself:
+                            <ul style="margin-left:20px;">
+                                <li> Review the stressful circumstances in your life and work on its different aspects.</li>
+                                <li> Distract yourself from every unpleasant thing.</li>
+                                <li> Face the difficult situation with full confidence and accept the results with happiness.</li>
+                                <li> Work on relaxing yourself, and develop some tricks to do so.</li>
+                            </ul>
+                            <h3 style="text-align:center">What are Panic Attacks?</h3>
+                            <p>A panic attack is a severe experience of anxiety. People may feel intense dread, experience various physical symptoms and have extreme thoughts of           losing control, going mad, having a heart attack or dying. It is also possible to become afraid of panic attacks themselves because the experience can be so unpleasant.
+                            <br/>
+                Although panic attacks can be very frightening, they are not actually harmful - people do not actually have heart attacks, develop psychiatric illnesses or die from them!</p>
+                            <p>Here are some strategies to help in the event of a panic attack:</p>
+                            <ul style="margin-left:20px">
+                                <li> Remind yourself that a panic attack will end!</li>
+                                <li> Remind yourself that panic attacks are not actually dangerous!</li>
+                                <li> Remind yourself of any previous occasions when you handled a similar situation well.</li>
+                                <li> Picture a person you trust or who cares about you and imagine the person is with you offering encouragement.</li>
+                                <li> Focus on the present moment and on the things around (outside of) you - observe their shape, colour, sounds.</li>
+                                <li> Stop what you are doing and slow yourself down for a moment! Breathe more slowly and gently (though not actually holding your breath). Then continue what you were doing slowly.</li>
+                                <li> Take a big sigh, stretch out, and then flop and relax.</li>
+                                <li> If you are able, take some gentle exercise, e.g. go for a stroll.</li>
+                                <li> Get angry! Don't let this anxiety (or situation) get the better of you!</li>
+                                </ul>
+                                <h3 style="text-align:center">When to seek further help?</h3>
+                                <p>Anxiety can affect your health only when it becomes chronic and severe, so it is important that you seek help if you think that this is the case:                    </p>
+                                <ul style="margin-left:3%">
+                                    <li> If the anxiety problems do not start to improve despite trying the ideas above.</li>
+                                    <li> If your fears are persistent and difficult to control.</li>
+                                    <li> If your anxiety is stopping you from living a normal life, or if you are avoiding important activities.</li>
+                                </ul>
+                                <br />
                             </div>
                         </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Message</label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                <p class="help-block text-danger"></p>
+                        <div class="portfolio2 Concentration" data-cat="Concentration" style="width:100%">
+                            <div class="" style="text-align:left">
+                                <h3 style="text-align:center">Concentration</h3>
+
+                            <p>Concentration has been defined as "the ability to direct one's thinking in whatever direction one would intend".
+                    We all have the ability to concentrate some of the time. But at other times our thoughts are scattered, and our minds race from one thing to another. To deal with such times, we need to learn and practice concentration skills and strategies.<br />
+                    Our ability to concentrate depends on:
+                                <ul style="margin-left:20px">
+                                    <li> Commitment</li>
+                                    <li> Enthusiasm</li>
+                                    <li> Skills</li>
+                                    <li> Our emotional & physical state</li>
+                                    <li> Our psychological state</li>
+                                    <li> Environment</li>
+                                </ul>
+                              <h3 style="text-align:center">Expanding your concentration span:</h3>
+                              <p>People sometimes refer to a concentration span: this is the time we can concentrate on a specific task before our thoughts wander. In learning concentration skills, we aim to extend our concentration span - bearing in mind that we will have a different span for different tasks. It cannot be expanded to infinity! Most people find their level for most tasks round about an hour, but for some people and some tasks it will just be a few minutes, while for others it might be two or three hours.<br />
+                    If you want to improve your concentration, start by practising this:</p>
+                              <ul style="margin-left:3%">
+                                <li> <b>STOP:</b> <br />
+                                    This sounds very simple, but it works. When you notice your thoughts wandering, say to yourself STOP and then gently bring your attention back to       where you want it to be. Each time it wanders bring it back. To begin with, this could be several times a minute. But each time, say STOP and then re-focus.</li>
+                                <li> <b>Worry time:</b><br />
+                                Set aside one or more specific periods in the day when you are allowed to worry. It can help to set them just before something that you know you will       do, to ensure that you stop worrying on time - e.g. before a favourite TV programme, or a meal-time. Whenever an anxiety or distracting thought enters your mind during the day, banish it until your next worry time, and re-focus on to what you are supposed to be doing.</li>
+                                </ul>
+                                <br />
+                                <p>Combating specific problems with concentration:</p>
+                              <!--<p>For further information regarding PDS session timings and syllabus, visit the following link.</p>-->
+                                <ul style="margin-left:20px;">
+                                    <li>Take a big sigh, stretch out, and then flip and relax.</li>
+                                    <li>If you are able, take some gentle exercise, e.g. go for a stroll.</li>
+                                    <li>Get angry! Don't let this anxiety (or situation) get the better of you.</li>
+                                </ul><br />
                             </div>
                         </div>
-                        <br>
-                        <div id="success"></div>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-outline-dark">Send</button>
+                        <div class="portfolio2 Conflicts" data-cat="Conflicts" style="width:100%">
+                            <div class="" style="text-align:left">
+                                <h3 style="text-align:center">Conflicts</h3>
+                                <p>Coming to one of the best engineering institutes just after your schooling can be exhilarating, challenging and sometimes unsettling. For most of you it's probably the first time you are going away from your home and your family to face the real world. Now you guys are coming out of the protecting cover of your parents. It may take few days to adjust with the entirely new environment here, including the academics, food, interaction with seniors and most importantly with your batch-mates and room- mates. As an undergraduate student, most of you will be allotted a two/three seater   room for first couple of years. So it becomes really significant how you go on with your friends especially your room-mate. It may happen that initially you don't feel comfortable with your friends, especially your room-mate, due to various reasons like language problem, different lifestyle or anything of that sort. Don't worry, as it is quite natural in the beginning. But you have to understand that you all are living here in a common fraternity and things will go better eventually as you start understanding your partner. It would be unfair to expect anyone to change their ways to suit you without you doing the same. Even if things don't work out, it's much easier to unravel the problem by discussing it with your partner or with your friends rather than keeping it to yourself and unnecessarily getting tensed and ruining your health and most importantly try to see the brighter side of living on sharing basis because it gives you an opportunity to learn how to adjust in adverse situations or in other words you can say gives you an incite of pressure handling. Also this help in increasing your social circle, you will come to know more about the culture of other part of India.  You are mature enough to decide your preferences and conflict with others is definitely not one of them. Do not hesitate to take proper guidance rather than indulging in trivial issues like conflict with others. Remember, you are here because you have the ability to grow and learn. Learning to work in a group and adapt to changing environment is one of the thing IIT KGP would primarily teach you. The culture of IITKgp is different from other IIT's especially in this respect. We are sure that you will make your parents and this institute proud.</p>
                             </div>
                         </div>
-                    </form>
+                        <div class="portfolio2 Depression" data-cat="Depression" style="width:100%">
+                            <div class="" style="text-align:left">
+                                <h3 style="text-align:center">Depression</h3>
+
+                         <p style="text-align:center;"> <i><b>"Am I depressed - or is it something else?"</b></i></p>
+                                    <p>Our mood naturally varies over time and from day to day and everyone gets down sometimes. We may say that we are 'down', 'fed up', or 'feeling under the pressure'; we may get disheartened about something that happens or when things don't go the way we would have liked. As it always doesn't happen the way we want. If we suffer a major loss, we readily understand that it is normal to grieve. Sometimes, though, past losses which were not fully mourned at the time may later resurface. Sometimes you don't even able to understand what is actually troubling you.
+                        Depression includes a persistent low mood and loss of interest or pleasure in life or no joy in doing the work which in past you like to do the most, you know the most passionate interest of yours'- it also commonly involves:</p>
+                                <ul style="margin-left:3%">
+                                    <li> Change in eating, weight, sleep patterns, reduced energy levels and impaired concentration </li>
+                                    <li> Negative thoughts, feelings of worthlessness wrong beliefs, withdrawing into owns space</li>
+                                    <li> Loss of enthusiasm and short-tempered</li>
+                                    <li> You feel listless, or 'can't be bothered' or things feel pointless</li>  
+                                    <li> Feel that it just not worth going on, or think about suicide </li> 
+                                 </ul>
+                                  <p>Someone who is depressed will experience a number of these changes persisting for quite some  time.</p>
+                                 <h3 style="text-align:center">Why do people get depressed?</h3>
+                                  <p>Often depression is a response to events or circumstances that are felt to be deeply troublesome or distressing, or which seem to threaten our personal         identity. Usually these circumstances seem too hard or even impossible to change. There can be a sense of powerlessness, hopelessness and an all-pervasive gloom                       <br />
+                        However, sometimes people seem to get depressed for no obvious reason. In these cases, it may be that something that hurt deeply some time ago (even years ago) begins to surface now.
+                                    </p>
+                                    <p>Usually the disappointment passes with time, and people find that they can come to terms with what has happened and start to look forward to the future in a more positive way. However, if the low mood is frequent or persists, or seems so severe that it affects your ability to function normally, it is time to seek out some help.</p>
+                                    <h3 style="text-align:center">Negative thinking</h3>
+                                    <p>When people are depressed they usually find themselves thinking very negative thoughts about themselves and the world; typically these thoughts are felt to be absolutely true and that there is no way of things ever changing. However, studies have shown that when people are no longer depressed they go back to seeing things in a more positive and balanced way.</p>
+                                    <p>Negative thoughts are usually -</p>
+                                    <ul style="margin-left:3%">
+                                    <li> Nobody likes me; I'm worthless; I'm a failure; I will be criticized; I will be rejected. </li>
+                                    <li> Nobody will ever want to have a relationship with me. </li>
+                                    <li> Any place doesn't give peace of mind; each place seems to be hollow. </li>
+                                    <li> I don't fit in; I'm different; I will always be alone; it's hopeless.</li>
+                                    <li> No one will accept me and my values. </li>
+                                </ul>
+                                <h3 style="text-align:center">How to help yourself ?</h3>
+                                <p>There are some things you can try which have been shown to help lift a depressed mood. These involve changing your behavior and challenging your negative thoughts.</p>
+                                <p>
+                        People who are depressed often stop doing pleasurable activities or the things about which they were passionate in their past, the things which makes them feel better in the short term. Encourage yourself to start doing things again - activity can lift your mood and you may well find that you can do things better than you imagine. Any activity will be helpful, but enjoyable activities and physical exercise/sport are particularly effective.
+                                </p>
+                                <ul style="margin-left:3%">
+                            <li> Simply don't give yourself free time to think about your problem, just always keep yourself indulge in some or other activities.</li>
+                            <li> Start with easier tasks and then progress to more difficult ones: this will help you to regain your confidence and will boost up your mood.</li>
+                            <li> Be realistic ,reward yourself for your achievements.</li>
+                            <li> Develop a new hobby or area of interest and indulge yourself in it.</li>
+                            <li>It is very important to spend time with people who are supportive. Isolating yourself increases depression, while social support helps lift a low mood.</li>
+                                </ul>
+                                <h3 style="text-align:center">Changing negative thoughts</h3>
+                                <p>Some examples are given below:</p>
+                                <p><b>Situation:</b> Getting critical feedback for an essay.<br /> <b>Negative thoughts:</b> I am stupid.<br /><b> Other explanations:</b><br /></p>
+                                <ul style="margin-left:3%">
+                                    <li> I didn't have much time to do this essay - the workload has been very heavy recently.</li> 
+                                    <li> I chose to do other things as well.</li> 
+                                    <li> The work is supposed to be challenging. Constructive criticism helps me to improve. I've done well in the past - which shows I can do well.</li>
+                                </ul>
+                                <br />
+                                <p><b>Situation:</b> My partner does not want to see me tonight.<br /> <b>Negative thoughts:</b> They don't care about me anymore.<br /> <b>Other explanations:</b></p>
+                                 <ul style="margin-left:3%">
+                                    <li> They said they had to work tonight - this is most likely true.</li> 
+                                    <li> We saw each other at the weekend and had a good time.</li> 
+                                    <li>They said some nice things to me lately and seemed caring the last time we met.</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="portfolio2 Exam" data-cat="Exam" style="width:100%">
+                            <div class="" style="text-align:left">
+                                <h3 style="text-align:center">Exam Stress</h3>
+
+                                    <p>Examination Stress is an uneasiness or apprehension experienced before, during, or after an examination. It is very common among college and university students. But some students find that this interferes with their learning to such an extent that it can reduce the efficiency of performance.</p>
+                                              <h3 style="text-align:center">How to handle exam stress?</h3>
+                                              <p>In order to help you to reduce this stress up to a manageable level, we give here practical guidelines to handle the time leading up to examinations, as well as some tips about the examinations themselves.</p>
+                                              <h3 style="text-align:center">Last few days before the exam</h3>
+                                                <p>If you haven't geared up for the examinations yet and are wondering how to start, please read on, the tips given here might be of help. Considering the seemingly huge amount of course material to be covered in the limited span of time, you might find yourself in a state of tension and restlessness. But looking at it the other way round, this restlessness simply shows your concern towards the examinations and the fact that you have started caring for your academics; and this is a definitely the sign of a good start.<br/>
+                                                Some of the points you should keep in mind are: </p> 
+                                              <ul style="margin-left:20px;">
+                                                <li> You can start with listing down all the topics that have been covered in the class, collecting all the lecture notes and then prioritizing them according to the level of difficulty and importance.</li>
+                                                <li> Note down important points/concepts from each course in a separate notebook, to help you revise easily.</li>
+                                                <li> Keep attending lectures.</li>
+                                                <li> Do not miss classes just because you need more time to prepare for the exams.</li>
+                                                <li> Keep boosting up your confidence.</li>
+                                                <li> Never let negative thoughts get into your mind.</li>
+                                                <li> Don't compare yourself with others and avoid the company of students who you feel might de-motivate you.</li>
+                                                <li> Don't waste more time in regretting that you haven't yet started the preparations. Remember that you can't go back to make a better beginning, but you can always start now and make a better ending. </li>
+                                              </ul>
+                                              <!--<p>For further information regarding PDS session timings and syllabus, visit the following link.</p>-->
+                                              <h3 style="text-align:center">On the day of the exam</h3>
+                                              <p>The following points might come in handy at the final day:</p>
+                                              <ul style="margin-left:20px;">
+                                                <li><b> Before the exam: </b><br />
+                                                    <ul style="margin-left:10px;">
+                                                        <li> Look after yourself - for example, get enough rest, eat reasonably, take a bath and be fresh.</li>
+                                                        <li> Arrive at the exam hall comfortably in time; use these few minutes to do some simple relaxation and breathing exercises.</li>
+                                                    </ul>
+                                                <br />
+                                                <li> <b>During the exam:</b><br />
+                                                    <ul style="margin-left:10px;">
+                                                        <li> Start answering the paper with the question that you know the best.</li>
+                                                        <li> Do not rush through the test; wear a watch and check it frequently as you pace yourself. </li>
+                                                        <li> Focus on answering the question, not on your grade or others' performance.</li>
+                                                        <li> Relax yourself; tell yourself I can be anxious later, now is the time to take the exam.</li>
+                                                        <li> If allowed, drink water or go to the bathroom. </li> 
+                                                    </ul>
+                                                 <br />
+                                                <li> <b>After the exam:</b><br /> 
+                                                 Your attitude after the exam is also important especially if you have another exam. The following points will be helpful to you to maintain your calm and composure after the exam.
+                                                    <ul style="margin-left:10px;">
+                                                        <li> Reward yourself for having tried.</li>
+                                                        <li> It is a good idea to decide what you are going to do after the exam. You can leave others to do the post-mortem of the paper outside the Lecture Hall, while you go and do something more enjoyable as already planned or take rest.</li>
+                                                        <li> If you have another exam and you are not satisfied with your performance in the first exam, you may get stressed and spoil your other exam as well. In such a case: 
+                                                            <ul style="margin-left:10px;">
+                                                                <li> Realize that you cannot change what has already happened, have confidence in how you performed. There is no point discussing your paper with anyone, just forget it.</li>
+                                                                <li>Just relax and sleep for some time, say, half-an-hour and then start fresh for the next exam.</li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                 </li>
+                                                </ul> 
+                                            <br />
+                            </div>
+                        </div>
+                        <div class="portfolio2 Language" data-cat="Language" style="width:100%">
+                            <div class="" style="text-align:left">
+                                <h3 style="text-align:center">Language</h3>
+
+                                <p>    
+                    The medium of instruction in IIT Kharagpur is English. The thesis work and assignment submissions are to be done in English, also all text and reference material is available in English. Your job interview would be carried out in English. IITKGP has students from different cultural and regional backgrounds. Therefore, wide usage of English may be a matter of concern to many. Many students who have not had a good background in English find it difficult to cope up with academics. This troubles them and they find themselves standing nowhere. If you are also facing a similar problem, let us tell you that you need not worry because there is a way out to this problem. You just need to put in a bit of effort. As you have made it to this institute, you have enough brain to do well in academics. This also goes for people who can speak proper English but are weak in public speaking. With some endeavour on your part, you can improve your English skills.
+                    </p>
+                              <ul style="margin-left:3%">
+                                <li> Read English books and newspapers mark the words you don't understand and look for their meaning in the dictionary. This will improve your English vocabulary. You may understand nothing when you begin reading these books but don't feel sad, just go on and you'll find yourself improving day by day.</li>
+                                <li> Talk to your friends in English. Don't hesitate if you speak wrong English. You will improve only when you give it a start.</li>
+                                <li> Don't run away from academics just because you don't understand English. Try to understand the terms, ask your friends to help you grasp the study material. Feel free to discuss your doubts with the tutors and instructors.</li>
+                            </ul>
+                            <br />
+                            </div>
+                        </div>
+                        <div class="portfolio2 Homesickness" data-cat="Homesickness" style="width:100%">
+                            <div class="" style="text-align:left">
+                                <h3 style="text-align:center">Home Sickness</h3>
+
+                                <p>    
+                    Many students coming to college, and maybe leaving home for the first time, feel homesick. Even those who didn't ever expect to be hit by homesickness can suddenly find themselves missing the familiarity of home and friends, and don't know quite how to cope with the resulting emotions. This is entirely normal and passes, usually in the first term, and often within the first few weeks.   It is really important to realize that you are not the only one feeling homesick and that it doesn't in any way mean you are inadequate.</p>
+                              <h3 style="text-align:center">What can you do to help yourself?</h3>
+                              <p>Most importantly, acknowledge your feelings and accept them. Believe that they will pass. They almost always do.   Decide whether the best policy for you is to have frequent contact with home or little contact. If you happen to be a localite, we will recommend you not visiting home very frequently, and try staying in hostels so that you can spend more time with your friends. Make a real effort to join various clubs, develop a new hobby. This might feel very difficult, but the more you feel part of campus life, the less homesick you will feel.</p>
+                              
+                            <br />
+                            </div>
+                        </div>
+                        <div class="portfolio2 Lonliness" data-cat="Lonliness" style="width:100%">
+                            <div class="" style="text-align:left">
+                                                    <h3 style="text-align:center">Lonliness</h3>
+
+                                <p>    
+                    It is a clich that we can feel lonely - even particularly lonely - in a crowd. Unfortunately it is one that is only too true and all too common at university. Here, surrounded by people of a similar age and, supposedly, with lots in common we can nevertheless feel wretchedly isolated and awkward. This is made worse by the sight of others who seem perfectly at ease, are rapidly making friends and are becoming embedded in groups from which you feel excluded or only tolerated on the margins. Feelings of Loneliness Occur to Us All - Sometimes we are thrown into that sense of uniqueness and the awareness that no-one can ever fully know and understand us. In fact, occasionally we may feel that we do not even understand ourselves! This is because we are constantly changing in response to the situations and relationships that we develop.</p>
+                              <h3 style="text-align:center">Negative Effects</h3>
+                              <p>Loneliness can:</p>
+                              <ul style="margin-left:20px">
+                                <li> lead to feelings of worthlessness. </li>
+                                <li>cause you to withdraw from social contact and the outside world.</li> 
+                                <li> result in disappointed expectations and spoil your enjoyment of the university.</li>
+                                <li> adversely affect your physical and emotional health.</li>
+                                <li> result in the excessive use of tobacco, alcohol and other drugs.</li>
+                                <li> lead to depression and suicidal thoughts.</li>
+                            </ul>
+                            <h3 style="text-align:center">Ways of Coping:</h3>
+                            <p>
+                     Loneliness is a normal part of human experience. It can even have positive effects, if it doesn't last for too long - for example, it can lead to the discovery and development of personal resources and, therefore, to a greater sense of your own independence. If it becomes long-lasting, however, it can cause great distress and hurt. Here are some suggestions for ways you may find helpful in breaking the pattern of your loneliness:</p>          
+                             <ul style="margin-left:20px">
+                                <li> <b>Self-Acceptance</b>:<br />
+                    You may blame yourself for your loneliness wishing you were different ('If only I were ...'); it can be helpful to realise that it may be your situation you need to change, rather than your personality or appearance. You are all right, the situation isn't - and you can do something about that.</li>
+                                <li> <b> Making Friends:</b><br /> 
+                                    <ul style="margin-left:10px">
+                                        <li><b> Accept your own preferences:</b> You may prefer one-to-one friendships to group contact; you may prefer quieter meeting places to pubs or clubs.</li>
+                                        <li><b> Choose activities you are genuinely interested in:</b> Whatever these are (societies, sports, voluntary work, arts, music, etc.), you will meet people there with whom you have something in common.</li>
+                                        <li> <b>Risk taking the initiative:</b> Your reticence can be misunderstood by others as aloofness or unfriendliness - for example, if you are feeling lonely in a lecture, avoiding eye-contact and pretending you're fine by absorbing yourself in a book or paper, you may be putting others off from contacting you. If you stop and look around you, you may well find others sitting on their own, who would welcome a smile from you and, perhaps, an offer of coffee in the break.</li>
+                                        <li> <b>Build upon your relationship by being a good friend:</b> Listening carefully, being responsive and showing understanding and even challenging sometimes, if it feels appropriate. (Deepening a few relationships can be more rewarding than pursuing many casual ones.)</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <h3 style="text-align:center">Sources of Help </h3>
+                            <p>A research done showed that students, who had been feeling lonely, said that the greatest help was talking about their feelings to someone who listened, cared, understood and accepted them. So if you look around yourself, you can always find your batch mates, seniors, counselling service members, your parents, faculty, who are always ready to help you. Don't have any hesitation in talking to them and taking their help.</p>        
+                            <br />
+                            </div>
+                        </div>
+                        <div class="portfolio2 Procrastination" data-cat="Procrastination" style="width:100%">
+                            <div class="" style="text-align:left">
+                                <h3 style="text-align:center">Procrastination</h3>
+                                  <p>The avoidance of doing a task which needs to be done - postponing until tomorrow what can be done today. Procrastination not only affects a person's work, but also commonly involves feelings such as guilt, inadequacy, self-disgust, stress and depression. Often we try to disguise our avoidance by being very busy doing things that may be interesting, and even useful, but don't contribute towards the main goal.</p>
+                                  <h3 style="text-align:center">Why do people procrastinate?</h3>
+                                  <ul style="margin-left:20px">
+                                    <li> Poor time management, often associated with a distorted sense of the time available.</li>
+                                    <li> Inability to prioritise.</li>
+                                    <li> Anxiety about the task, so time is spent worrying rather than doing.</li> 
+                                    <li> Difficulty in concentrating.</li> 
+                                    <li> Not knowing what is required.</li>
+                                    <li> Being bored by the task. </li>
+                                    <li> Never having learned how to work or sort out problems while at school or living at home.</li>
+                                </ul>
+                                <h3 style="text-align:center">Disadvantages of procrastination</h3>
+                                <ul style="margin-left:20px">
+                                    <li> Missed deadlines</li> 
+                                    <li> Too much last minute rushing</li> 
+                                    <li> Not doing justice to yourself</li>
+                                    <li> Unnecessary stress </li>
+                                    <li>Worrying </li>
+                                    <li>Nagging guilt spoiling leisure time</li>
+                                    <li> Energy sapped and nothing to show</li>
+                                </ul>
+                                <h3 style="text-align:center">Practical tips</h3>
+                                <ul style="margin-left:20px">
+                                    <li> Write down what you have to do, when and then prioritize. List making can make you feel more in control.</li> 
+                                    <li> Set aside 15 minutes today which you will devote exclusively to the task you are putting off.</li>
+                                    <li> Once started it is often easier to keep going. Make a start on an easy task then switch quickly to a difficult one.</li>
+                                    <li> Stop telling yourself you must do really well. Remind yourself that doing it is what matters.</li>
+                                    <li> Boost your motivation; dwell on your strengths, on tasks which you have accomplished.</li>
+                                    <li> Plan rewards for when you have accomplished something.</li>
+                                </ul>
+                                <br />
+                            </div>
+                        </div>
+                        <div class="portfolio2 Sleeping" data-cat="Sleeping" style="width:100%">
+                            <div class="" style="text-align:left">
+                                <h3 style="text-align:center">Sleeping Disorders</h3>
+                                  <p>Here are some guidelines for a good night's rest! Hopefully, this will help you swim against the current trend of 'night-outs' in Kharagpur.</p>
+                                  <ul type="none">
+                        <li><b> Exercise</b> during the day, preferably in the late evening before dinner. Do not exercise within 4 hours of going to bed. Aerobic exercise (not necessarily 'aerobics', but the type that gets you sweating for 20 minutes or more) is best, but 45 minutes to an hour of brisk walking will work.</li>
+                        <li><b> Regular Bedtime / Wake Time</b> to go to bed and get up at regular times, even if you are tired in the morning. Do not vary your time of going to bed or getting up. However if you have consistent sleep problems, try getting up half an hour earlier in the morning than your usual time; it may help you get to sleep that night.</li>
+                        <li><b> Do not Fight and Fret about Sleeplessness</b>. Do not try to make yourself sleep. If you are unable to fall asleep after 20 - 30 minutes, leave your bed, engage in some relaxing activity (such as watching TV, sitting in a chair and listening to a relaxation tape, or having a cup of herbal tea), and do not return to bed until you are sleepy. Repeat until you fall asleep. Also work not to worry, get upset, fight or fear sleeplessness. Even if tired the next day, your adrenaline should keep you functioning adequately for the tasks you most need to accomplish.</li>
+                        <li><b> Meals before Sleep</b>: No heavy meals right before bedtime. Avoid stimulating or spicy foods. Eat a small snack about two hours before bedtime. A good choice would be a banana and a glass of milk. Some people also find drinking a glass of milk 30 minutes before sleeping is helpful.</li>
+                        <li> <b>No Stimulants.</b> Avoid caffeine, sugar or other stimulants within 4 hours of going to bed. Avoid even moderate use during the day. If you must have some, do so only in the morning and have small amounts.</li>
+                        <li><b> Sleep Ritual</b>: Develop a 30-minute or more sleep ritual before bedtime. This is a relaxing activity you do every night in the same order at about the same time before you get into bed. A hot shower, bath, or other relaxing or inspirational reading activity may be helpful.</li>
+                        <li><b> Sleep Restriction</b>: Cut down on time in bed not sleeping. Estimate average total hours currently actually sleeping, i.e.- 7 hours.</li> <li><b> Determine time of day you wake up</b>, i.e., 8am. Subtract sleep hours from the wake time (i.e., 8am - 7 hours = 1am.) Go to bed at this time. Make sure to get up at the regular wake time, and take no naps. </li>
+                        <li><b> The Bed is for Sleep</b>. Eliminate non - sleep activities in bed (such as reading or doing other work) to strengthen associations between your bed and sleeping (unless these other activities are part of your sleep ritual).</li>
+                        <li><b> Naps</b>: Only take quick 'power' naps no longer than 20 minutes and no later than the afternoon.</li>
+                        <li><b> Thoughts</b>: Keep a notebook by your bed. If something is on your mind, you can get some peace by writing it down, knowing it will be there when you wake up. Then focus on positive thoughts.</li></ul>
+                                <br />
+                            </div>
+                        </div>
+                </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <a href="https://wrapbootstrap.com/theme/vitality-multipurpose-one-page-theme-WB02K3KK3" class="btn btn-block btn-full-width">Buy Vitality Now!</a>
+    
+    
+    
+    
+    
     <footer class="footer" style="background-image: url('assets/img/bg-footer.jpg')">
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-4 contact-details">
                     <h4><i class="fa fa-phone"></i> Call</h4>
-                    <p>555-213-4567</p>
+                    <p>999999999999</p>
                 </div>
                 <div class="col-md-4 contact-details">
                     <h4><i class="fa fa-map-marker"></i> Visit</h4>
-                    <p>3481 Melrose Place
-                        <br>Beverly Hills, CA 90210</p>
+                    <p>IIT Kharagpur</p>
                 </div>
                 <div class="col-md-4 contact-details">
                     <h4><i class="fa fa-envelope"></i> Email</h4>
-                    <p><a href="mailto:mail@example.com">mail@example.com</a>
+                    <p><a href="mailto:mail@example.com">info@swgiitkgp.in</a>
                     </p>
                 </div>
             </div>
             <div class="row social">
                 <div class="col-lg-12">
                     <ul class="list-inline">
-                        <li><a href="#"><i class="fa fa-facebook fa-fw fa-2x"></i></a>
+                        <li><a href="https://www.facebook.com/SWGIITKGP/?fref=ts" target="_blank"><i class="fa fa-facebook fa-fw fa-2x"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+                        <li><a href="https://www.facebook.com/SWGIITKGP/?fref=ts" target="_blank"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+                        <li><a href="https://www.facebook.com/SWGIITKGP/?fref=ts" target="_blank"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="row copyright">
                 <div class="col-lg-12">
-                    <p class="small">&copy; 2015 Start Bootstrap Themes</p>
+                    <p class="small">&copy; 2015 Student Welfare Group || Tech Team</p>
                 </div>
             </div>
         </div>
@@ -743,38 +1240,13 @@
                     </div>
                 </div>
             </div>
-            <div class="modal-body">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <img src="assets/img/client-logos/logo-1.png" class="img-responsive img-centered" alt="">
-                            <h2>Project Title</h2>
-                            <hr class="colored">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos modi in tenetur vero voluptatum sapiente dolores eligendi nemo iste ea. Omnis, odio enim sint quam dolorum dolorem. Nostrum, minus, ad.</p>
-                        </div>
-                        <div class="col-lg-12">
-                            <img src="assets/img/portfolio/mobile-screens.png" class="img-responsive img-centered" alt="">
-                        </div>
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com/">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com/">April 2015</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com/">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <object data="http://www.swgiitkgp.in/nsltr.pdf" 
+                     type="application/pdf" 
+                     width="900px" height="700px">
+
+                        <param name="view" value="fitH" />
+
+                    </object>
         </div>
     </div>
     <!-- Example Modal 2 -->
@@ -790,29 +1262,19 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
-                            <img src="assets/img/client-logos/logo-2.png" class="img-responsive img-centered" alt="">
-                            <h2>Project Title</h2>
+                            <h2>PDS Doubt Clearing Sessions</h2>
                             <hr class="colored">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos modi in tenetur vero voluptatum sapiente dolores eligendi nemo iste ea. Omnis, odio enim sint quam dolorum dolorem. Nostrum, minus, ad.</p>
+                            <p>An interactive session organized by us for those who feel they are lagging behind in the course because of no prior knowledge. Programming and Data Structure is an important course of the first year curricula. Our instructors are senior students of the institute who try to increase the problem tackling capability of the students, starting from the very basic level and build up their confidence to face the competition.</p>
+                            <p>In Friday’s sessions, tutorial sheets are provided to the students and the tutors help them to solve the questions by clearing the doubts of each and every student.</p>
+                            <p>In Sunday’s sessions, students are supposed to come with their laptops and they are given a set of programming questions like the ones given in PDS Laboratory classes. The tutors help the students in coding, compiling and running their programs. At the end of the sessions, we also provide printed solution of the tutorial sheet to the students.</p>
+                            <p>Session Timings: 6:00 PM to 8:00 PM on Fridays and Sunday’s</p>
+                            <p>Venue: F-232</p>
                         </div>
                         <div class="col-lg-12">
                             <img src="assets/img/portfolio/tablet-screens.png" class="img-responsive img-centered" alt="">
                         </div>
                         <div class="col-lg-8 col-lg-offset-2">
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com/">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com/">April 2015</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com/">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
+                            
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -833,29 +1295,30 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
-                            <img src="assets/img/client-logos/logo-1.png" class="img-responsive img-centered" alt="">
-                            <h2>Project Title</h2>
+                            <h2>Paramount Achievers</h2>
                             <hr class="colored">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos modi in tenetur vero voluptatum sapiente dolores eligendi nemo iste ea. Omnis, odio enim sint quam dolorum dolorem. Nostrum, minus, ad.</p>
-                        </div>
-                        <div class="col-lg-12">
-                            <img src="assets/img/portfolio/mobile-screens.png" class="img-responsive img-centered" alt="">
+                            <p>Student Welfare Group conducted a panel discussion on " Internships and Placements " wherein the panellists were the recently passed out alumni of IIT Kharagpur. It was held on the 26th of July, 2013, the eve before the 59th annual convocation. The honourable panellists included:</p>
+                            <ul>
+                                <li>Mr. Mayank Shrivastava</li>
+                                <li>Mr. Akshay Choudhry</li>
+                                <li>Mr. Abhijeet Tallavajhula</li>
+                                <li>Mr. Pratyush Pande</li>
+                                <li>Mr. Anuraag Gutgutia</li>
+                                <li>Ms. Madhurima Kumar</li>
+                                <li>Mr. Karthik Reddy Madugula</li>
+                            </ul>
+                            <p>The theme of the Panel Discussion being " <b>Internships and Placements</b> " the career conscious Kgp crowd turned up in huge numbers and the event saw the room V1 flooded with more than 400 students of all years eager to listen to what the panellists had to convey. The topics of discussion included:</p>
+                            <ul>
+                                <li>Availability of Various Career Options</li>
+                                <li>Knowledge of Company Internships and opportunities in Foreign Universities</li>
+                                <li>CV building</li>
+                                <li>How to groom yourself for GD/PI in order to get selected for internships/placements</li>
+                                <li>How to get the best out of your KGP life by maintaining a balance between Academics and Extra Academics</li>
+                            </ul>
+                            <p>After the discussion on planned topics was over the audience were given an opportunity to freely question the panellists regarding any suggestions they required. . All that were a part of this memorable event took back something with them. The awe inspiring reaction from the audience itself narrated the success story of this event which will surely be of particular aid to all of them in their future lives.</p>
                         </div>
                         <div class="col-lg-8 col-lg-offset-2">
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com/">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com/">April 2015</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com/">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
+                           
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -876,29 +1339,15 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
-                            <img src="assets/img/client-logos/logo-2.png" class="img-responsive img-centered" alt="">
-                            <h2>Project Title</h2>
+                            <h2>Student Mentor Programme</h2>
                             <hr class="colored">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos modi in tenetur vero voluptatum sapiente dolores eligendi nemo iste ea. Omnis, odio enim sint quam dolorum dolorem. Nostrum, minus, ad.</p>
-                        </div>
-                        <div class="col-lg-12">
-                            <img src="assets/img/portfolio/tablet-screens.png" class="img-responsive img-centered" alt="">
+                            <p>This initiative of Student Welfare Group has made an impact on a large number of lives on the campus. This programme included the guidance and mentorship of every single first year student by a 3 rd or 4th year student of his very own department. The objective of this programme is to help the first years understand the various aspects of college life, and adapt accordingly. This programme ensures that the hindsight of the Mentor becomes the foresight of the Mentee. The Mentees can benefit immensely from the insight of the Mentor and find the best possible way to utilize their time in the campus. The Student Mentor Programme provides scope for constructive and productive interaction between the freshmen and the experienced seniors , which forms an integral part of college life.</p>
+                            <h3>Student Mentor Programme 2014</h3>
+                            <p>Like the earlier versions of the programme, Student Mentor Programme 2014 also had at its roots, the core objective of encouraging productive interaction and providing effective guidance to first year students by experienced seniors. The programme provides a reliable and comprehensive support system for the student community to motivate students to excel in both academic and non-academic fields and to make the most of their life at IIT Kharagpur and beyond. The programme continues to help the undergraduate first year students understand the challenges and opportunities present in IIT Kharagpur and to develop a smooth transition to campus life. It also provides positive role models to them, thus providing them with guidance to make the best use of their time in the next 4-5 years of their stay at IIT Kharagpur. The Mentor to Mentee ratio averages out to be 1:5 for SMP-14. It is a three semester long programme and will continue from the first autumn semester of the novice up to the autumn semester of his second year.
+</p>
                         </div>
                         <div class="col-lg-8 col-lg-offset-2">
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com/">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com/">April 2015</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com/">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
+                            
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -906,13 +1355,10 @@
             </div>
         </div>
     </div>
-    <!-- Style Switcher - FOR DEMO PURPOSES ONLY -->
     
-    <!-- End Style Switcher -->
-    <!-- Core Scripts -->
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap/bootstrap.min.js"></script>
-    <!-- Plugin Scripts -->
+    
     <script src="assets/js/plugins/jquery.easing.min.js"></script>
     <script src="assets/js/plugins/classie.js"></script>
     <script src="assets/js/plugins/cbpAnimatedHeader.js"></script>
@@ -925,12 +1371,17 @@
     <script src="assets/js/plugins/wow/wow.min.js"></script>
     <script src="assets/js/contact_me.js"></script>
     <script src="assets/js/plugins/jqBootstrapValidation.js"></script>
-    <!-- Vitality Theme Scripts -->
+    
     <script src="assets/js/vitality.js"></script>
-    <!-- Style Switcher Scripts - Demo Purposes Only! -->
+ 
     <script src="assets/demo/style.switcher.js"></script>
+<script type="text/javascript" src="js/simple-lightbox.js"></script>
+<script>
+    $(function(){
+        var gallery = $('.gallery a').simpleLightbox();
+    });
+</script>
 </body>
 
 
-<!-- Mirrored from themes.startbootstrap.com/vitality-v1.3.5/creative.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Nov 2015 08:31:01 GMT -->
 </html>

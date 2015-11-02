@@ -103,7 +103,7 @@
 
             // MixItUp plugin
             // http://mixitup.io
-            $('#portfoliolist').mixitup({
+            $('.portfoliolist').mixitup({
                 targetSelector: '.portfolio',
                 filterSelector: '.filter',
                 effects: ['fade'],
@@ -111,13 +111,28 @@
                 // call the hover effect
                 onMixEnd: filterList.hoverEffect()
             });
-
+            $('.portfoliolist1').mixitup({
+                targetSelector: '.portfolio1',
+                filterSelector: '.filter1',
+                effects: ['fade'],
+                easing: 'snap',
+                // call the hover effect
+                onMixEnd: filterList.hoverEffect()
+            });
+            $('.portfoliolist2').mixitup({
+                targetSelector: '.portfolio2',
+                filterSelector: '.filter2',
+                effects: ['fade'],
+                easing: 'snap',
+                // call the hover effect
+                onMixEnd: filterList.hoverEffect()
+            });
         },
 
         hoverEffect: function() {
 
             // Simple parallax effect
-            $('#portfoliolist .portfolio').hover(
+            $('.portfoliolist .portfolio').hover(
                 function() {
                     $(this).find('.caption').stop().animate({
                         bottom: 0
